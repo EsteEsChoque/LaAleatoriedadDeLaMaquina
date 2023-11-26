@@ -1,0 +1,34 @@
+/* EstadisticasRuleta.module.css */
+
+.numeroGanador {
+    /* Estilos comunes para todos los números ganadores */
+    margin-right: 5px;
+  }
+  
+  .negro,
+  .rojo,
+  .verde {
+    /* Estilos para números negros, rojos y el verde */
+    color: white; /* Cambia el color según tus preferencias */
+    border-radius: 50%;
+    padding: 5px; /* Agrega relleno para que se vean como círculos */
+    width: 30px; /* Ancho fijo */
+    height: 30px; /* Alto fijo */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px; /* Tamaño del texto */
+  }
+  
+  .negro {
+    background-color: black;
+  }
+  
+  .rojo {
+    background-color: red;
+  }
+  
+  .verde {
+    background-color: green;
+  }
+  

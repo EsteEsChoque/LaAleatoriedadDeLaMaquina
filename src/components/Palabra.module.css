@@ -1,0 +1,12 @@
+/* Palabra.module.css */
+
+.container {
+    word-wrap: break-word; /* Permite que las palabras largas se rompan y continúen en la siguiente línea */
+    overflow-x: auto; /* Agrega un desplazamiento horizontal si el contenido excede el ancho del contenedor */
+  }
+  
+  .generated-word {
+    display: inline-block; /* Hace que el contenido sea un bloque en línea */
+    font-size: 18px; /* Ajusta según sea necesario */
+  }
+  
