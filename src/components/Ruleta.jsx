@@ -73,7 +73,7 @@ const Ruleta = ({ onGirar }) => {
         </button>
         <br />
       </div>
-      <button onClick={() => girarRuleta()} disabled={girando}>
+      <button onClick={() => handleGenerarAleatorio()} disabled={girando}>
         Girar Ruleta
       </button>
     </div>
